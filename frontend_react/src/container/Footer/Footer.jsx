@@ -31,8 +31,7 @@ const Footer = () => {
         "frw9wN4zpY-axT1k2"
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
           setLoading(false);
           setIsFormSubmitted(true);
         },
